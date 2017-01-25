@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p Simple demo REST API using MongoDB, Mongoose, Express, ES2015
+  p Model logic - defined in models/Book.js
+  p Business logic - defined in services/Book.js
+  p Handling request/responce - defined in routes/index.js
+  p Two conection strings for test and production databases - defined in config/env.json
+  p Integrations tests for some routes defined in test/book.js
+
+  p For start app run -  npm i ,than -  npm start,
+  p For start app in test mode run - npm test
